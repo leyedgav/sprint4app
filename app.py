@@ -45,6 +45,3 @@ st.plotly_chart(fig_price_odometer)
 st.subheader('Price vs Model Year')
 fig_price_year = px.scatter(df, x='model_year', y='price', title='Price vs Model Year')
 st.plotly_chart(fig_price_year)
-
-
-
